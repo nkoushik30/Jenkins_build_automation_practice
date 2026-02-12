@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Home - My Website</title>
-    <script src="https://cdn.tailwindcss.com">
+    <script>
         function theme({ extend }) {
             return {
                 extend: {
@@ -18,6 +18,7 @@
                 },
             }
         }   
+        console.log('Tailwind CSS configuration loaded:', theme({ extend: {} }));
     </script>
 </head>
 <body>
