@@ -4,7 +4,21 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Home - My Website</title>
-    
+    <script src="https://cdn.tailwindcss.com">
+        function theme({ extend }) {
+            return {
+                extend: {
+                    colors: {
+                        primary: '#1E40AF',
+                        secondary: '#9333EA',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                },
+            }
+        }   
+    </script>
 </head>
 <body>
     <header style="text-align: center;">
